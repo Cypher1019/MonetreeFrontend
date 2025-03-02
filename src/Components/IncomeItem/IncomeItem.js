@@ -13,7 +13,7 @@ function IncomeItem({
     description,
     deleteItem,
     indicatorColor,
-    type
+    typ
 }) {
 
     const categoryIcon = () =>{
