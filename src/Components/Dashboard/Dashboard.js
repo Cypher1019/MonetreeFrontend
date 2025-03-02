@@ -21,7 +21,7 @@ function Dashboard() {
                 <div className="stats-con">
                     <div className="chart-con">
                         <Chart />
-                        <div className="amount-con"
+                        <div className="amount-con">
                             <div className="income">
                                 <h2>Total Income</h2>
                                 <p>
