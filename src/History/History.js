@@ -21,7 +21,7 @@ function History() {
                         </p>
 
                         <p style={{
-                            color: type === 'expense' ? 'red' : 'var(--color-green)'
+                            color: type === 'expense' ? 'red' : 'var(--color-green)
                         }}>
                             {
                                 type === 'expense' ? `-${amount <= 0 ? 0 : amount}` : `+${amount <= 0 ? 0: amount}`
