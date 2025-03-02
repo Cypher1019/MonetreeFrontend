@@ -11,7 +11,7 @@ export const GlobalProvider = ({children}) => {
 
     const [incomes, setIncomes] = useState([])
     const [expenses, setExpenses] = useState([])
-    const [error, setError] = useState(null
+    const [error, setError] = useState(null)
 
     //calculate incomes
     const addIncome = async (income) => {
