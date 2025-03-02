@@ -32,7 +32,7 @@ function Form() {
             amount: '',
             date: '',
             category: '',
-            description: '',
+            description: ''
         })
     }
 
